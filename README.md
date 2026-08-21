@@ -1,0 +1,3 @@
+Fuck this i have written this for 47 mins but accitentaly refreshed to page twice bottom line is this: i wanted to use the beatiful lua for backend with lapis and openresty but bec of LukaHietala and Wisdurm and fucking openbsd i cant anyways ts OtsoJohannes.fi something wacky that doesnt work maybe someday it doesnt know i dont know i yap and stufff also should it be otsojohannes.fi i mean this wacky stupid and just like me i amno  t  sleething nuclear fusion idk 
+O.J finaly out i am not going to kill myself prob anytime soon gg good knight get it that wasnt even joke I mean the suicede hehe spelled t wrong was a joke but the night thing idk i should  go to sleep go to sleep -O.J 21.8.2026 23:01 
+ (utc+2 or +3 fuck daysavings)
