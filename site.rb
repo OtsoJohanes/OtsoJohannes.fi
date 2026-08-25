@@ -20,7 +20,7 @@ SQL
 
 post "/hmm" do 
   db.execute("INSERT INTO hmm(
-   title, content, public) (?, ?, ?,)",
+   title, content, public, id) (?, ?, ?,)",
     params["title"],
     params["content"],
     params["public"]

@@ -1,0 +1,32 @@
+:root{
+    --a: #white
+    --b: #grey
+    --c: #black
+
+
+}
+h1{
+    border-bottom-style: groove;
+    padding-left: 5%;
+    padding-right:5%;
+    border-width: 5pt;
+}
+
+
+.title-input {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom-style: groove;
+    width: 100%
+
+}
+textarea {
+    width: 100%;
+    min-width: 100%;
+    padding-left: 5%;
+
+}
