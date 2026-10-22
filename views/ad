@@ -1,0 +1,12 @@
+function Admin() {
+  let text;
+  let password = prompt("Password:", "");
+
+  if (password === null || password === "") {
+    text = "User cancelled the prompt.";
+  } else {
+      location.replace("/")
+  }
+
+  return text;
+}
