@@ -14,7 +14,7 @@ db.execute <<-SQL
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         title TEXT NOT NULL,
         content TEXT NOT NULL,
-        time DATETIME DEFAULT CURRENT_TIME
+        time DATETIME DEFAULT (strftime('%s', 'now'))
 );
 SQL
 
@@ -49,13 +49,17 @@ post '/new' do
       VALUES (?,?)", ["#{params['title']}", "#{params['content']}"]
   redirect ('/')
 end
+
 post '/edit' do
-  db.execute"
-      UPDATE INTO
-      blog (title, content)
-      VALUES (?,?)", ["#{params['title']}", "#{params['content']}"]
+
+
+   db.execute"
+       UPDATE blog
+      SET title = ?, content = ?, time = unixepoch('now')
+	  WHERE id = ?",["#{params['title']}", "#{params['content']}", "#{params['id']}" ]
   redirect ('/')
 end
+
 post '/delete' do
   db.execute"
       DELETE FROM
